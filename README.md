@@ -4,7 +4,7 @@ A spam classifier that detects whether an email is spam or not, using a Bag-of-W
 
 ## Overview
 
-Raw email text is cleaned (punctuation and stopwords removed), converted into a Bag-of-Words feature matrix with `CountVectorizer`, and used to train a Naive Bayes classifier — a standard, effective baseline approach for text classification tasks like spam filtering.
+Raw email text is cleaned (punctuation and stopwords removed), converted into a Bag-of-Words feature matrix with CountVectorizer, and used to train a Naive Bayes classifier, a standard and effective baseline approach for text classification tasks like spam filtering.
 
 ## Results
 
